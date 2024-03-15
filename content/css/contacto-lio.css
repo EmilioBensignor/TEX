@@ -883,6 +883,6 @@ main {
 
   #canales,
   #consultas {
-    height: 86vh;
+    height: auto;
   }
 }
