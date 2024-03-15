@@ -542,7 +542,7 @@ main {
 
   #canales,
   #consultas {
-    height: auto;
+    height: 65vw;
   }
 
   #consultas{
@@ -781,6 +781,11 @@ main {
 }
 
 @media only screen and (min-width: 1200px) {
+  #canales,
+  #consultas {
+    height: 60vw;
+  }
+
   #consultas {
     gap: 3vw;
   }
@@ -797,6 +802,11 @@ main {
   .canal,
   .canalWhatsApp {
     width: 87.5%;
+  }
+
+  #canales,
+  #consultas {
+    height: 56vw;
   }
 
   #consultas {
@@ -828,6 +838,11 @@ main {
     width: 77.5%;
   }
 
+  #canales,
+  #consultas {
+    height: 50vw;
+  }
+
   .venta div {
     height: 3.5vh;
   }
@@ -842,6 +857,11 @@ main {
 }
 
 @media only screen and (min-width: 1790px) {
+  #canales,
+  #consultas {
+    height: 44vw;
+  }
+  
   .venta div {
     height: 3vh;
   }
@@ -854,6 +874,11 @@ main {
 }
 
 @media only screen and (min-width: 1920px) {
+  #canales,
+  #consultas {
+    height: 42vw;
+  }
+  
   .venta div {
     height: 2.5vh;
   }
