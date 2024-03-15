@@ -1,6 +1,7 @@
 body {
   --url-sprite_footer: url("../img/footer/sprite_footer.svg");
 }
+
 body[data-entorno="tourexperto.com"] {
   --url-sprite_footer: url(//imagenes.tourexperto.com/content/img/footer/sprite_footer.svg?v1.02);
 }
@@ -123,27 +124,33 @@ body {
   /* background-image: url("./images/Icono-Argentina.png"); */
   background-position: -25px -82px;
 }
+
 .canalChile {
   /* background-image: url("./images/Icono-Chile.png"); */
   background-position: -65px -82px;
 }
+
 .canalColombia {
   /* background-image: url("./images/Icono-Colombia.png"); */
   background-position: -105px -82px;
 }
+
 .canalEspana {
   /* background-image: url("./images/Icono-Espana.png"); */
   background-position: -183px -82px;
 }
+
 .canalEstados-Unidos {
   background-image: url("../../prueba/Icono-Estados-Unidos.png");
   background-size: contain;
   /* background-position: ; */
 }
+
 .canalGuatemala {
   /* background-image: url("./images/Icono-Guatemala.png"); */
   background-position: -223px -82px;
 }
+
 .canalMexico {
   /* background-image: url("./images/Icono-Mexico.png"); */
   background-position: -251px -120px;
@@ -356,18 +363,22 @@ body {
   background-color: #6c58fe;
   background-position: -25.5px -126.5px;
 }
+
 .iconoFacebook {
   background-color: #6c58fe;
   background-position: -71px -126.5px;
 }
+
 .iconoYoutube {
   background-color: #6c58fe;
   background-position: -116px -126.5px;
 }
+
 .iconoPinterest {
   background-color: #6c58fe;
   background-position: -161.5px -126.5px;
 }
+
 .iconoLinkedIn {
   background-color: #6c58fe;
   background-position: -206.5px -126.5px;
@@ -380,73 +391,92 @@ body {
 }
 
 @media only screen and (min-width: 480px) {
+
   .canalWhatsApp p,
   .canal p {
     width: 50%;
   }
+
   .consulta :last-child {
     font-size: 1.1rem;
   }
+
   .canalesConsultas p {
     font-size: 1.1rem;
   }
 }
 
 @media only screen and (min-width: 769px) {
+
   .divCanales,
   .divConsultas {
     width: 75%;
   }
+
   .canalWhatsApp p,
   .canal p {
     width: 40%;
   }
+
   .canalesConsultas p {
     font-size: 1.2rem;
   }
+
   .consulta :last-child {
     font-size: 1.2rem;
   }
+
   .slide img {
     width: 65%;
   }
+
   .slide div {
     width: 65%;
   }
+
   .nombreVentas {
     font-size: 1.5rem;
   }
+
   .rolVentas {
     font-size: 1.2rem;
   }
+
   .conocerEquipoVentas {
     margin: 0;
   }
+
   .conoceVentas {
     width: 50%;
     font-size: 1rem;
   }
+
   .asesores {
     width: 60%;
     font-size: 1.1rem;
     margin: 4vw 0;
   }
+
   .agendarCita {
     font-size: 1.3rem;
     padding: 3vw 10vw;
   }
+
   .siguenosRedesSociales {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
+
   .h3RedesSociales {
     font-size: 1.5rem;
   }
+
   #redesSociales {
     width: 50%;
     gap: 1vw;
   }
+
   .nombreSocial {
     font-size: 1.2rem;
   }
@@ -456,9 +486,11 @@ body {
   .canalesConsultas p {
     font-size: 1.5rem;
   }
+
   .slide img {
     width: 50%;
   }
+
   .slide div {
     width: 50%;
   }
@@ -468,6 +500,7 @@ body {
   .h2CanalesConsultas {
     display: block;
   }
+
   .canalesConsultas {
     width: 100%;
     display: flex;
@@ -477,54 +510,65 @@ body {
     gap: 2vw;
     padding: 0 0 5vw 0;
   }
+
   #canales,
   #consultas {
-    height: 105vh;
+    height: 80vh;
   }
+
   .divCanales,
   .divConsultas {
     width: 45%;
     border-top-left-radius: 33px;
     border-top-right-radius: 33px;
   }
+
   .tituloCanales,
   .tituloConsultas {
-    height: 18vh;
+    height: 14vh;
     display: flex;
     align-items: center;
     border-top-left-radius: 33px;
     border-top-right-radius: 33px;
     padding: 1vw 3vw;
   }
+
   .divCanales .tituloCanales p,
   .divConsultas .tituloConsultas p {
     font-size: 1.5rem;
   }
+
   .canal,
   .canalWhatsApp {
     width: 100%;
     justify-content: start;
     padding: 0 1vw;
   }
+
   .canalWhatsApp p,
   .canal p {
     width: 65%;
     color: black;
     font-size: 1.3rem;
   }
+
   .canalWhatsApp {
     background-color: white;
   }
+
   #canales {
     gap: 2vw;
   }
+
   #canalesPaises {
     gap: 2vw;
   }
+
   .canal,
   .canalWhatsApp {
     position: relative;
   }
+
   #canales .contactarme {
     display: flex;
     align-items: center;
@@ -536,6 +580,7 @@ body {
     border-radius: 33px;
     padding: 0 2vw;
   }
+
   .iconoContactarme {
     width: 22px;
     height: 22px;
@@ -543,34 +588,44 @@ body {
     background-repeat: no-repeat;
     background-position: center;
   }
+
   .iconoChat {
     background-image: url("../../prueba/Icono-Chat.png");
   }
+
   .iconoTelefono {
     background-image: url("../../prueba/Icono-Telefono.png");
   }
+
   #canales .contactarme p {
     color: white;
   }
+
   .iconoCanal {
     margin-right: 0.5vw;
   }
+
   .canal img,
   .canalWhatsApp img {
     width: 50%;
   }
+
   #consultas {
     gap: 1.5vw;
   }
+
   .consulta {
     width: 85%;
   }
+
   .canalesConsultas p {
     font-size: 1.3rem;
   }
+
   .consulta :last-child {
     font-size: 1.3rem;
   }
+
   .equipoVentas {
     display: flex;
     flex-direction: column;
@@ -578,6 +633,7 @@ body {
     background: none;
     padding: 0;
   }
+
   .equipoVentasDesktop {
     width: 95%;
     display: flex;
@@ -586,9 +642,11 @@ body {
     background: linear-gradient(102.19deg, #6c58fe 1.06%, #2e0049 100%);
     border-radius: 18px;
   }
+
   .sliderVentas {
     display: none !important;
   }
+
   #ventasDesktop {
     width: 65%;
     display: flex;
@@ -596,133 +654,212 @@ body {
     flex-wrap: wrap;
     padding: 2vw;
   }
+
   .venta {
     width: 25%;
     margin: 1vw 0;
   }
+
   .venta img {
     width: 90%;
     transition: transform 1s ease;
   }
-  .venta:hover img{
+
+  .venta:hover img {
     transform: rotateY(180deg);
   }
+
   .venta div {
     width: 90%;
-    height: 6.5vh;
+    height: 5vh;
+    justify-content: center;
     align-items: flex-start;
     gap: 0.1vw;
     padding: 1vw 0;
     transition: background-color 1s ease;
   }
-  .venta:hover div{
+
+  .venta:hover div {
     background-color: #2E0049;
   }
+
   .nombreVentas,
   .rolVentas {
     text-align: start;
     font-size: 0.75rem;
     margin-left: 1vw !important;
   }
+
   .conocerEquipoVentas {
     width: 40%;
     align-items: flex-start;
   }
+
   .conoceVentas {
-    width: 85%;
+    width: 90%;
     border-radius: 9px;
     font-weight: 500;
     margin: 0;
     padding: 0.75vw 0;
   }
+
   .conoceVentas p {
     font-size: 1.1rem;
+    font-weight: 600;
     margin: 0;
   }
+
   .asesores {
     width: 85%;
     text-align: start;
     font-size: 1.5rem;
     margin: 3vw 0;
   }
+
   .agendarCita {
     padding: 1vw 4vw;
   }
+
   .h3RedesSociales {
     font-size: 2rem;
   }
+
   #redesSociales {
     width: 100%;
     gap: 2vw;
   }
+
   .linkSocial {
     width: auto;
     padding: 0 1vw;
     gap: 1.5vw;
   }
+
   .nombreSocial {
     font-size: 1.3rem;
   }
 }
 
 @media only screen and (min-width: 1280px) {
+
   .tituloCanales,
   .tituloConsultas {
     height: 12vh;
     padding: 1vw 2vw;
   }
+
   #canales,
   #consultas {
-    height: 105vh;
+    height: 85vh;
     padding: 3vw;
   }
+
   .canal,
   .canalWhatsApp {
     width: 87.5%;
   }
+
   #consultas {
     gap: 3vw;
   }
+
   .venta div {
     height: 4.5vh;
   }
+
   .conoceVentas {
     width: 75%;
   }
+
   .asesores {
     font-size: 1.6rem;
   }
 }
 
+@media only screen and (min-width: 1380px) {
+
+  #canales,
+  #consultas {
+    height: 87vh;
+  }
+}
+
 @media only screen and (min-width: 1492px) {
+
   .tituloCanales,
   .tituloConsultas {
     height: 10vh;
   }
+
   #canales,
   #consultas {
-    height: 85vh;
+    height: 91vh;
   }
+
   .canal,
   .canalWhatsApp {
     width: 77.5%;
   }
+
   .venta div {
     height: 3.5vh;
   }
+
   .conoceVentas {
     width: 65%;
   }
+
   .asesores {
     font-size: 1.8rem;
   }
 }
 
-@media only screen and (min-width: 1600px){
+@media only screen and (min-width: 1590px) {
+
   #canales,
   #consultas {
-    height: 90vh;
+    height: 92vh;
   }
 }
 
-/* RESOLUCIONES HASTA 1920 */
+@media only screen and (min-width: 1690px) {
+
+  #canales,
+  #consultas {
+    height: 94vh;
+  }
+}
+
+@media only screen and (min-width: 1790px) {
+
+  #canales,
+  #consultas {
+    height: 95vh;
+  }
+
+  .venta div {
+    height: 3vh;
+  }
+}
+
+@media only screen and (min-width: 1880px) {
+
+  #canales,
+  #consultas {
+    height: 96vh;
+  }
+
+  .venta div {
+    height: 3vh;
+  }
+}
+
+@media only screen and (min-width: 1920px){
+  #canales,
+  #consultas {
+    height: 93vh;
+  }
+  .venta div {
+    height: 2.5vh;
+  }
+}
