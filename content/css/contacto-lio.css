@@ -106,7 +106,6 @@ main {
 }
 
 .iconoCanal {
-  width: 25%;
   display: inline-block;
   background: var(--url-sprite_footer) no-repeat;
   background-repeat: no-repeat;
@@ -121,8 +120,6 @@ main {
 }
 
 .iconoWhatsApp {
-  /* background-size: 260px 260px;
-  background-position: -215px 0px; */
   background-image: url("../../prueba/Icono-WhatsApp.png");
   background-size: contain;
   height: 30px;
@@ -150,12 +147,10 @@ main {
 }
 
 .canalGuatemala {
-  /* background-image: url("./images/Icono-Guatemala.png"); */
   background-position: -223px -82px;
 }
 
 .canalMexico {
-  /* background-image: url("./images/Icono-Mexico.png"); */
   background-position: -251px -120px;
 }
 
@@ -583,9 +578,11 @@ main {
   }
 
   .iconoWhatsAppDesktop{
+    display: inline-block;
     background-image: url("../img/icons/ico-wapp.webp");
     background-position: center;
     background-size: contain;
+    background-repeat: no-repeat;
   }
 
   .canalWhatsApp p,
