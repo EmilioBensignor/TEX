@@ -479,7 +479,7 @@ body {
   }
   #canales,
   #consultas {
-    height: 100vh;
+    height: 105vh;
   }
   .divCanales,
   .divConsultas {
@@ -673,7 +673,7 @@ body {
   }
   #canales,
   #consultas {
-    height: 110vh;
+    height: 105vh;
     padding: 3vw;
   }
   .canal,
@@ -715,6 +715,13 @@ body {
   }
   .asesores {
     font-size: 1.8rem;
+  }
+}
+
+@media only screen and (min-width: 1600px){
+  #canales,
+  #consultas {
+    height: 90vh;
   }
 }
 

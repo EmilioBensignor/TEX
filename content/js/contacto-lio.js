@@ -221,12 +221,12 @@ ventas.forEach((venta, index) => {
   
   const ventaDiv = venta.querySelector('div');
   
-  venta.addEventListener('mouseenter', () => {
+  venta.addEventListener('mouseover', () => {
     imagen.src = imagen.dataset.srcViaje;
     ventaDiv.style.backgroundColor = '#2E0049';
   });
   
-  venta.addEventListener('mouseleave', () => {
+  venta.addEventListener('mouseout', () => {
     imagen.src = imagen.dataset.src;
     ventaDiv.style.backgroundColor = '#6c58fe';
   });
