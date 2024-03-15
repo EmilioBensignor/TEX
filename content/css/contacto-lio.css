@@ -815,6 +815,7 @@ main {
 }
 
 @media only screen and (min-width: 1380px) {
+
   #canales,
   #consultas {
     height: 82vh;
@@ -846,7 +847,8 @@ main {
   }
 }
 
-@media only screen and (min-width: 1600px){
+@media only screen and (min-width: 1600px) {
+
   #canales,
   #consultas {
     height: 84vh;
@@ -854,10 +856,12 @@ main {
 }
 
 @media only screen and (min-width: 1790px) {
+
   #canales,
   #consultas {
     height: 86vh;
   }
+
   .venta div {
     height: 3vh;
   }
@@ -875,9 +879,10 @@ main {
   }
 }
 
-@media only screen and (min-width: 2200px){
+@media only screen and (min-width: 2200px) {
+
   #canales,
   #consultas {
-    height: auto;
+    height: 86vh;
   }
 }
