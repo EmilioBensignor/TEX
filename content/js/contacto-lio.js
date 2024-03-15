@@ -194,7 +194,7 @@ for (let k = 0; k < equipoVentas.length; k++) {
 for (let l = 0; l < equipoVentas.length; l++) {
   ventasDesktop.innerHTML += `
     <div class="venta">
-      <img src="${equipoVentas[l].imgVentas}" alt="${equipoVentas[l].altVentas}">
+      <img loading="lazy" src="${equipoVentas[l].imgVentas}" alt="${equipoVentas[l].altVentas}">
       <div>
         <p class="nombreVentas">${equipoVentas[l].nombre}</p>
         <p class="rolVentas">${equipoVentas[l].rol}</p>
