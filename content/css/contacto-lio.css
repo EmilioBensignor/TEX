@@ -116,6 +116,10 @@ main {
   margin-right: 3vw;
 }
 
+.iconoWhatsAppDesktop{
+  display: none;
+}
+
 .iconoWhatsApp {
   /* background-size: 260px 260px;
   background-position: -215px 0px; */
@@ -126,29 +130,23 @@ main {
 }
 
 .canalArgentina {
-  /* background-image: url("./images/Icono-Argentina.png"); */
   background-position: -25px -82px;
 }
 
 .canalChile {
-  /* background-image: url("./images/Icono-Chile.png"); */
   background-position: -65px -82px;
 }
 
 .canalColombia {
-  /* background-image: url("./images/Icono-Colombia.png"); */
   background-position: -105px -82px;
 }
 
 .canalEspana {
-  /* background-image: url("./images/Icono-Espana.png"); */
   background-position: -183px -82px;
 }
 
 .canalEstados-Unidos {
-  background-image: url("../../prueba/Icono-Estados-Unidos.png");
-  background-size: contain;
-  /* background-position: ; */
+  background-position: -301px -82px;
 }
 
 .canalGuatemala {
@@ -547,6 +545,10 @@ main {
     height: auto;
   }
 
+  #consultas{
+    gap: 1.7vw;
+  }
+
   .divCanales,
   .divConsultas {
     width: 45%;
@@ -574,6 +576,16 @@ main {
     width: 100%;
     justify-content: start;
     padding: 0 1vw;
+  }
+
+  .iconoMobile{
+    display: none;
+  }
+
+  .iconoWhatsAppDesktop{
+    background-image: url("../img/icons/ico-wapp.webp");
+    background-position: center;
+    background-size: contain;
   }
 
   .canalWhatsApp p,
@@ -639,10 +651,6 @@ main {
   .canal img,
   .canalWhatsApp img {
     width: 50%;
-  }
-
-  #consultas {
-    gap: 1.5vw;
   }
 
   .consulta {
@@ -774,7 +782,7 @@ main {
 
 @media only screen and (min-width: 1200px) {
   #consultas {
-    gap: 2.5vw;
+    gap: 3vw;
   }
 }
 
